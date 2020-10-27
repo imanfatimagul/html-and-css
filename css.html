@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css style">
+  <style>
+    h1 {
+      color: steelblue;
+      font-size: 130px;
+    }
+    h2 {
+      color: green;
+    }
+    #subtitle {
+      color: green;
+    }
+    #contact {
+      color: red;
+    }
+    #child {
+      color: rgb(93, 5, 233);
+    }
+    #link {
+      color: brown;
+    }
+    body {
+      background-color: rgb(236, 233, 233);
+      font-size: 25px;
+    }
+    .main {
+      width: 600px;
+      border: 50px solid tomato;
+      color:steelblue;
+      border-radius: 60px;
+      font-size: 150px;
+      text-align: center;
+      animation-name: sample;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: steps(6);
+      }
+
+      @keyframes sample{
+       0% {border-radius: 0%;}
+       100% {border-radius: 50%; color: tomato; background-color: aquamarine;}
+     }
+     .wrapper{
+       height: 500px;
+       width: 500px;
+       background-color: aqua;
+     }
+     #mind {
+       height: 50%;
+       width: 60%;
+       background-color: rgba(250, 235, 215, 0.876);
+       border: 15px solid rgba(251, 244, 152, 0.596);
+     }
+     #about-us-image{
+       height: 350px;
+       width: 60%;
+       border: 20px solid rgba(16, 48, 85, 0.856);
+       padding: 20px;
+       margin: 40px;
+     }
+     #images {
+       border: 10px solid rgba(15, 41, 75, 0.911);
+       padding: 20px;
+       margin: 30px;
+     }
+     #service{
+       border: 10px solid green;
+       padding: 20px;
+       margin: 20px;
+     }
+     .now{
+       margin: 20px 10px;
+       background-color: aqua;
+     }
+
+  </style>
+</head>
+<body>  
+  <h1>My website:</h1>
+  <img src="https://personal.psu.edu/hvy5070/Nature.jpeg" width="800" height="400"/ class="menu" id="about-us-image">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptates voluptatibus non nihil inventore totam deserunt numquam saepe quasi nostrum, delectus harum quas natus dolores fuga pariatur ratione ex quam.</p>
+  <br/>
+    <dev class="main">CSS Tutorials</dev>
+    <br/><br/><br/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT33YQQt_Z3MyC4xURNl2ageJqSl90VXcyY6g&usqp=CAU" id="images">
+    <dev class="wrapper">
+      <h2>About me:</h2>
+  <p id="mind">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi quae, unde ad veritatis vitae architecto amet laboriosam qui sit a esse, quos numquam reprehenderit! Et accusantium voluptas optio dolor rem quasi, architecto iusto nisi, dolores repellat dolore vel amet dignissimos veniam libero doloremque maiores excepturi dolorem soluta! Impedit eum, necessitatibus enim, consequuntur unde, in quae quos sint porro iusto temporibus? Eius veritatis velit dolor architecto deserunt exercitationem, at delectus quibusdam est distinctio ut vel consectetur rem labore animi omnis necessitatibus adipisci fugit sapiente laborum expedita porro placeat accusantium numquam. Tenetur ipsum maxime, eveniet accusamus vitae necessitatibus aliquam non consectetur nam quos assumenda vel totam dicta provident aliquid autem iure cupiditate molestias est ex modi. Deleniti, facere quod suscipit dignissimos natus vero sunt consequatur consectetur reprehenderit debitis hic non doloremque, voluptatem similique minus voluptas expedita, blanditiis sit fugit! Neque earum laudantium sapiente dolor a corrupti et eum hic necessitatibus commodi!</p>
+    </dev>
+  <ul id="child"> 
+    <li>Lorem, ipsum dolor</li>
+    <li>dolores hic eligend</li>
+    <li>laudantium doloremque</li>
+  </ul>
+  <h2>Services</h2>
+  <a href="http://www.google.com/" id="link">click here to go to Google</a>
+  <br/>
+  <table width="500" border="2" bgcolor="#efefef">
+    <tr bgcolor="#cccccc">
+      <td>Moon</td>
+      <td>sun</td>
+      <td>Sky</td>
+    </tr>
+    <tr>
+      <td>Sea</td>
+      <td>Stars</td>
+      <td>Mountains</td>
+    </tr>
+    <tr>
+      <td>Rivers</td>
+      <td>Green trees</td>
+      <td>Blue sky</td>
+    </tr>
+  </table>
+  <h2 id="contact">Contact us</h2>
+  <img src="https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="200" width="200" id="service"/>
+  <form>
+    <p>
+      <input type="text" placeholder="full name">
+      <input type="text" placeholder="Email address">
+    </p>
+    <p>
+      <textarea></textarea>
+      <div class="now"></div>
+      <button>submit</button>
+    </div>
+    </p>
+  </form>
+</body>
+</html>
