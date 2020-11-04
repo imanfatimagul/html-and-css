@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>intro.js</title>
+  <script>
+    window.alert("Good morning friends!");
+    alert("How are u");
+    function myFunction() {
+      var text = document.getElementById("too").innerHTML;
+      document.getElementById("too").innerHTML=text.toUpperCase();
+    }
+  </script>
+</head>
+<body>
+  <h1>My first web page</h1>
+  <p>My first paragraph</p>
+  <button onclick="window.print()">Print this page</button>
+  <h1>Try it your self</h1>
+  <button onclick="document.getElementById('ful').innerHTML=Date()">The time is?</button>
+  <p id="ful"></p>
+  <button onclick="this.innerHTML=Date()">the time is</button>
+  <h2>javascript String Methods</h2>
+  <p>Replace "Microsoft" with "W3schools" in the paragraph below:</p>
+  <button onclick="myFunction()">click me</button>
+  <p id="too">"hello world"</p>
+</body>
+</html>
